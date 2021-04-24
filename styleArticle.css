@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+main{max-width: 100%;height: 75px;position: sticky;top: 0;left: 0;z-index: 10;background: gray;display: flex;justify-content: flex-start;align-items: center;border-bottom: 5px solid rgb(214, 114, 114);font-family: 'Open Sans', sans-serif;}
+footer{max-width: 100%;height: 50px;background: gray;}
+ul{display: flex;list-style: none;margin-left: 50px;}
+ul>li>a{margin-left: 25px;color:white;font-size: 20px;}
+ul>li>a:hover{color:rgb(233, 233, 233);}
+body{min-height: 1000px;background: rgb(235, 235, 235);}
+img{width: 300px;height:375px;margin: 30px;}
+.container_info{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-around;margin:50px;position: relative;background: rgb(255, 255, 255);min-width: 300px;max-width: 930px;}
+.title{margin: 30px;padding: 25px;transition: .5s;}
+.title>p{text-align: center;font-family: 'Open Sans', sans-serif;color: rgb(214, 114, 114);font-size: 14px;font-weight: 800;}
+.title:hover{background: rgba(200, 200, 201, 0.61);}
+
+
+
+.allTitle{max-width: 100%;min-height: 700px;margin: 50px;background: white;position: relative;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+.allTitle>img{float: left;margin: 50px;}
+.container1{max-width: 100%;font-family: 'Open Sans', sans-serif;display: flex;flex-wrap: wrap;}
+.sub-container1{margin: 25px;text-align: center;}
+.animeName{font-size: 24px;text-align: center;min-width: 250px;}
+.animeGenre{max-width: 100%;min-width: 99%;float: right;display: flex;flex-wrap: wrap;}
+.container2{max-width: 100%;margin: 0px 0px 0px 50px;font-family: 'Open Sans', sans-serif;display: flex;flex-direction: column;flex-wrap: wrap;align-items: center;position: absolute;top: 435px;}
+.container3{width: 100%;margin: 75px 50px 50px 50px;font-family: 'Open Sans', sans-serif;}

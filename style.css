@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+main{max-width: 100%;height: 75px;position: sticky;top: 0;left: 0;z-index: 10;background: gray;display: flex;justify-content: flex-start;align-items: center;border-bottom: 5px solid rgb(214, 114, 114);font-family: 'Open Sans', sans-serif;}
+footer{max-width: 100%;height: 50px;background: gray;}
+ul{display: flex;list-style: none;margin-left: 50px;}
+ul>li>a{margin-left: 25px;color:white;font-size: 20px;}
+ul>li>a:hover{color:rgb(233, 233, 233);}
+body{min-height: 1000px;background: rgb(235, 235, 235);}
+img{width: 200px;height:250px;}
+.container_info{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-around;margin:50px;position: relative;background: rgb(255, 255, 255);min-width: 300px;max-width: 930px;}
+.title{margin: 30px;padding: 25px;transition: .5s;}
+.title>p{text-align: center;font-family: 'Open Sans', sans-serif;color: rgb(214, 114, 114);font-size: 14px;font-weight: 800;}
+.title:hover{background: rgba(200, 200, 201, 0.61);}
+
+.presently{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-around;margin:50px;position: relative;background: white;max-width: 490px;min-width: 300px;max-height: 500px;overflow-y: scroll;}
+.news>p{width: 300px;text-align: center;color: black;font-family: 'Open Sans', sans-serif;}
+.news>img{margin: 5px auto;}
+.news{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-around;margin:0px 0px 5px 0px;position: relative;border-bottom: 3px solid rgb(214, 114, 114);max-width: 100%;min-height: 500px;transition: .5s;}
+.newsP{position: sticky;top: 0;left: 0;z-index: 1;background: rgb(211, 211, 211);min-width: 100%;}
+.date{text-align: center;margin: 15px;font-family: 'Open Sans', sans-serif;font-weight: 800;font-size: 25px;}
+.news:hover{background: rgba(241, 241, 241, 0.61);}
+.allP{width: 100%;text-align: center;margin-top: 25px;font-family: 'Open Sans', sans-serif;color: black;font-size: 25px;font-weight: 800;}
+
+.header{max-width: 100%;display: flex;justify-content: center;padding: 25px;background: white;margin: 25px 0px 25px 0px;}
+.header>p{max-width: 60%;font-family: 'Open Sans', sans-serif;color: black;min-width: 300px;text-align: left;}
+
+.newAnime{max-width: 100%;min-height: 300px;background-color: white;padding: 25px;margin: 25px 0px 25px 0px;display: flex;flex-wrap: wrap;align-content: space-around;justify-content: space-between;flex-direction: row;}
+.newAnime>p{width: 100%;font-family: 'Open Sans', sans-serif;color: black;font-size: 25px;font-weight: 800;}
+.newTitle{margin: 25px;text-align: center;color: black;font-family: 'Open Sans', sans-serif;font-weight: 800;font-size: 14px;margin: 50px 20px 0px 20px;}
+
+
+.registration{width: 400px;height: 600px;z-index: 11;position: absolute;left: calc(50% - 200px);top: calc(50% - 200px);background: white;display: none;}
